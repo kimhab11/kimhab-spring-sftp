@@ -1,0 +1,19 @@
+spring:
+  application.name:
+    kimhab-spring-sftp
+
+logging:
+  level:
+    com.jcraft.jsch : debug
+    org.springframework.integration.sftp: debug
+
+server-sftp:
+#  host: test.rebex.net
+#  port: 22
+#  username: demo
+#  password: password
+  host: demo.wftpserver.com
+  port: 2222
+  username: demo
+  password: demo
+
